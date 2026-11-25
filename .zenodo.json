@@ -1,0 +1,47 @@
+{
+  "title": "Calibrated Germline Architecture of 62 Hereditary Cancer Genes Across 9,768 Genomes and 82 Endogamous Indian Communities: Data and Reproducible Pipeline",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "description": "<p>Reproducible code, curated variant adjudication catalogs, MaveDB/SpliceAI sensitivity tables, Wahlund community stratification outputs, penetrance-adjusted PAF models, gallbladder GWAS risk-allele stratification, and 600-DPI figures supporting the manuscript <em>Calibrated Germline Architecture of 62 Hereditary Cancer Genes Across 9,768 Genomes and 82 Endogamous Indian Communities Reconciled with National Cancer Surveillance</em> (Target journal: <em>Familial Cancer</em>, Springer Nature).</p><p><strong>Contents:</strong><ul><li><code>tables/</code>: Complete Tables 1-7, Supplementary Sensitivity Tables M1-M5, full 6,277-variant audit (<code>ESM_2_Complete_62Gene_Variant_Audit.csv</code>), 15-tab master workbook (<code>ESM_1_Familial_Cancer_62Gene_Workbook.xlsx</code>), and code archive (<code>ESM_3</code>).</li><li><code>data_cancer/</code> &amp; <code>data_lynch/</code>: Extracted rare variant tables across 82 decoded Indian communities, ClinVar SPDI / gnomAD v4.1 / SpliceAI caches, MaveDB functional datasets, ClinGen ENIGMA BRCA2 VCEP v1.2 calibration data, and Cancer Samiksha 2016-2025 projections.</li><li><code>scripts/</code> &amp; root runner scripts: Full end-to-end Python pipeline implementing SPDI verification, MANE Select PVS1 rules, MAVE/SpliceAI sensitivity bounds, community-stratified Wahlund/NNS modeling, Levin PAF clinical-share models, and 600-DPI figure generation.</li><li><code>figures_manuscript/</code>: Seven publication-ready 600-DPI figures (Figs 1-7).</li></ul></p><p><strong>Licensing note:</strong> Curated data tables and figures are shared under CC BY 4.0; Python code is shared under the MIT License (see <code>LICENSE</code>).</p>",
+  "creators": [
+    {
+      "name": "Dutta, Atanu Kumar",
+      "affiliation": "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal, India",
+      "orcid": "0000-0002-8413-3454"
+    },
+    {
+      "name": "Mondal, Soumyajit",
+      "affiliation": "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal, India"
+    }
+  ],
+  "keywords": [
+    "Hereditary cancer",
+    "GenomeIndia",
+    "Variant calibration",
+    "MANE Select",
+    "ClinVar SPDI",
+    "Lynch syndrome",
+    "BRCA1",
+    "BRCA2",
+    "Autozygosity",
+    "Wahlund effect",
+    "MaveDB",
+    "SpliceAI",
+    "Cancer Samiksha",
+    "South Asian genomics"
+  ],
+  "notes": "Raw multi-gigabyte GenomeIndia Phase 1 chromosome TSVs and DBT/IBDC GI-DB files are publicly accessible via the Indian Biological Data Centre (https://ibdc.dbt.gov.in/gidb/) and are referenced rather than redistributed verbatim. Derived extracted rare variant sets (<1% AF across all 62 genes) and 82-population frequency matrices needed to reproduce all manuscript tables and figures offline are included.",
+  "related_identifiers": [
+    {
+      "identifier": "https://ibdc.dbt.gov.in/gidb/",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.ncdirindia.org/cancersamiksha/DEFAULT.aspx",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ]
+}

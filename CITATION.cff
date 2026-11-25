@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this curated 62-gene variant catalog, calibration scripts, or analytical outputs, please cite the accompanying manuscript and this Zenodo deposit."
+title: "Calibrated Germline Architecture of 62 Hereditary Cancer Genes Across 9,768 Genomes and 82 Endogamous Indian Communities Reconciled with National Cancer Surveillance"
+type: dataset
+authors:
+  - family-names: Dutta
+    given-names: Atanu Kumar
+    orcid: "https://orcid.org/0000-0002-8413-3454"
+    affiliation: "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal, India"
+    email: "atanu.biochem@aiimskalyani.edu.in"
+  - family-names: Mondal
+    given-names: Soumyajit
+    affiliation: "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal, India"
+keywords:
+  - Hereditary cancer
+  - GenomeIndia
+  - Variant calibration
+  - MANE Select
+  - ClinVar SPDI
+  - Lynch syndrome
+  - HBOC
+  - MaveDB
+  - SpliceAI
+  - Wahlund effect
+  - Autozygosity
+  - Cancer Samiksha
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://zenodo.org/"
